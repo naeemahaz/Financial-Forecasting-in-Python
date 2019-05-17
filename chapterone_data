@@ -77,5 +77,18 @@ Great work! You now have a good understanding of the difference between net prof
 
 Great! That is correct! Costs not directly related to the production of goods should not be included in cogs, and subsequently not included in the gross profit.
 --------------------------------------------------------------------------------------
+Calculating sales
+To calculate a sales forecast we need to know both the price we wish to sell our product and the number of units we expect to sell. In this example we will have a look at a company T-Z producing and selling T-Shirts.
+
+The company offers its customers two options - a basic shirt or a customized shirt. A T-shirt costs 15 USD for a basic shirt, and 25 USD for a customized one.
+
+T-Z have forecast orders for T-Shirts for delivery next month, and want to use the same sales mix of 60% basic and 40% customized. As this mix is relatively stable, we can calculate an average sales price per unit for T-Z. The variable forecast_units has been set for you.
+
+Set the variables for the basic sales price as salesprice_basic, the extensive customization price as salesprice_custom.
+Calculate the average sales price for the T-Shirts taking into account the sales mix
+Calculate the forecast sales figure sales_USD for next month.
+Print the total USD sales.
+
+
 
 
