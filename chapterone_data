@@ -1,0 +1,46 @@
+Calculating gross profit
+Gross profit is the amount of money you generated in sales minus the cost of selling those goods (Also know as Cost of Goods Sold or COGS). COGS does not include administration or marketing costs, only costs directly related to production or providing the good or service, so Gross Profit is a good metric to see the core profitability of any product\service.
+
+GrossProfit=TotalSalesValue−TotalCOGS
+Gross profit margin is the gross profit expressed as a percentage of sales, which is valuable for analysis and decision making.
+
+GrossProfitMargin=GrossProfitSalesValue
+As the manager of a factory, you have been asked to check the gross profit forecast for the following year.
+
+Set sales and cogs variables to 8000 and 5400, respectively.
+Using the formulas, calculate the gross profit gross_profit and print the gross_profit result.
+
+# Set the sales variable to 8000
+sales = 8000
+
+# Set the cost of goods sold (cogs) variable to 5400
+cogs = 5400
+
+# Calculate the gross profit (gross_profit)
+gross_profit = sales - cogs
+
+# Print the gross profit
+print("The gross profit is {}.".format(gross_profit))
+
+
+# Set the sales variable and cost of goods sold (cogs) variables
+sales = 8000
+cogs = 5400
+
+# Calculate the gross profit (gross_profit)
+gross_profit = sales - cogs
+
+# Print the gross profit
+print("The gross profit is {}.".format(gross_profit))
+
+# Calculate the gross profit margin
+gross_profit_margin = gross_profit / sales
+
+# Print the gross profit margin
+print("The gross profit margin is {}.".format(gross_profit_margin))
+
+Awesome! Did you know that a good gross profit margin varies by industry? For example a good margin in the automative 
+industry might be 15%, but in another industry like apparel, the norm is around 50%. The higher margin you have the 
+better of course, and also this margin will then pay for other expenses not directly related to the product, like Marketing. 
+This will be covered in the next exercise, where we cover Net Profit
+
