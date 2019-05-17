@@ -1,5 +1,7 @@
 Calculating gross profit
-Gross profit is the amount of money you generated in sales minus the cost of selling those goods (Also know as Cost of Goods Sold or COGS). COGS does not include administration or marketing costs, only costs directly related to production or providing the good or service, so Gross Profit is a good metric to see the core profitability of any product\service.
+Gross profit is the amount of money you generated in sales minus the cost of selling those goods (Also know as Cost of 
+Goods Sold or COGS). COGS does not include administration or marketing costs, only costs directly related to production or 
+providing the good or service, so Gross Profit is a good metric to see the core profitability of any product\service.
 
 GrossProfit=TotalSalesValue−TotalCOGS
 Gross profit margin is the gross profit expressed as a percentage of sales, which is valuable for analysis and decision making.
@@ -51,7 +53,8 @@ For example the salary of the accountant who prepares your invoices, the adverti
 
 So, how do we calculate this?
 
-We start by setting a list for all the items that we want to include in the net profit calculation and calling the list "other operating expenses" or "opex".
+We start by setting a list for all the items that we want to include in the net profit calculation and calling the list "
+other operating expenses" or "opex".
 
 To keep it simple we will not go into any tax or exceptional expenses or income.
 
@@ -73,21 +76,74 @@ print(opex)
 net_profit = gross_profit - sum(opex)
 print("The net profit is {}.".format(net_profit))
 
-Great work! You now have a good understanding of the difference between net profit and gross profit, as well as what items to include in operating expenses. Sales minus cost of good sold minus operating costs gives you the net profit.
+Great work! You now have a good understanding of the difference between net profit and gross profit, as well as what items to 
+include in operating expenses. Sales minus cost of good sold minus operating costs gives you the net profit.
 
-Great! That is correct! Costs not directly related to the production of goods should not be included in cogs, and subsequently not included in the gross profit.
+Great! That is correct! Costs not directly related to the production of goods should not be included in cogs, and subsequently 
+not included in the gross profit.
 --------------------------------------------------------------------------------------
 Calculating sales
-To calculate a sales forecast we need to know both the price we wish to sell our product and the number of units we expect to sell. In this example we will have a look at a company T-Z producing and selling T-Shirts.
+To calculate a sales forecast we need to know both the price we wish to sell our product and the number of units we expect to 
+sell. In this example we will have a look at a company T-Z producing and selling T-Shirts.
 
-The company offers its customers two options - a basic shirt or a customized shirt. A T-shirt costs 15 USD for a basic shirt, and 25 USD for a customized one.
+The company offers its customers two options - a basic shirt or a customized shirt. A T-shirt costs 15 USD for a basic shirt, 
+and 25 USD for a customized one.
 
-T-Z have forecast orders for T-Shirts for delivery next month, and want to use the same sales mix of 60% basic and 40% customized. As this mix is relatively stable, we can calculate an average sales price per unit for T-Z. The variable forecast_units has been set for you.
+T-Z have forecast orders for T-Shirts for delivery next month, and want to use the same sales mix of 60% basic and 40% customized. 
+As this mix is relatively stable, we can calculate an average sales price per unit for T-Z. The variable forecast_units has 
+been set for you.
 
 Set the variables for the basic sales price as salesprice_basic, the extensive customization price as salesprice_custom.
 Calculate the average sales price for the T-Shirts taking into account the sales mix
 Calculate the forecast sales figure sales_USD for next month.
 Print the total USD sales.
+
+
+# Set variables units sold and sales price of the T-shirts (basic and extensive)
+salesprice_basic = 15.00
+salesprice_custom = 25.00
+
+# Calculate the combined sales price taking into account the sales mix
+average_sales_price = (salesprice_basic*0.6) + (salesprice_custom*0.4)
+
+# Calculate the total sales for next month
+sales_USD = average_sales_price*forecast_units
+
+# Print the total sales
+print("Next month's forcast sales figure is {} USD.".format(sales_USD))
+
+
+Forecasting sales with a discount
+Sales are often made with special mixes and discounts. Discounts are a great marketing tool and a way to move stock. 
+Let's look again at company T-Z.
+
+T-Z has launched a new range of T-Shirts linked to a celebrity meme for 40 USD per T-Shirt. They have excess stock of 
+Celebshirt1 on their shelves, and in expectation of the release of Celebshirt2 in February, they have announced a 40% 
+discount on Celebshirt1 in February.
+
+For this exercise, prices are in USD, and unit amounts are total units sold in the respective month. The following 
+variables have been defined for you:
+
+sales_price = 40
+
+units_january = 500
+
+units_february = 700
+
+The January sales only include sales of Celebshirt1.
+
+The February sales include sales of Celebshirt1 and Celebshirt2, at a ratio of 45:55.
+
+
+Forecast the sales for January (without a discount).
+Forecast the sales for February (discounted: dsales_price).
+Print the results for sales for January and February.
+
+
+
+
+
+
 
 
 
