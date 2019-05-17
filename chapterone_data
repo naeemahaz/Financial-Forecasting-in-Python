@@ -43,4 +43,28 @@ Awesome! Did you know that a good gross profit margin varies by industry? For ex
 industry might be 15%, but in another industry like apparel, the norm is around 50%. The higher margin you have the 
 better of course, and also this margin will then pay for other expenses not directly related to the product, like Marketing. 
 This will be covered in the next exercise, where we cover Net Profit
+-----------------------------------------------------------------------------
+Calculating net profit
+The net profit includes all the other costs (and all other income) that may incur or earn that is not directly related to the product.
+
+For example the salary of the accountant who prepares your invoices, the advertising budget, travel expenses, etc.
+
+So, how do we calculate this?
+
+We start by setting a list for all the items that we want to include in the net profit calculation and calling the list "other operating expenses" or "opex".
+
+To keep it simple we will not go into any tax or exceptional expenses or income.
+
+The simplified calculation is:
+
+NetProfit=GrossProfit−OtherOperatingExpenses
+
+Add the appropriate variables into the opex list: sales, admin, travel, cogs, training, marketing, insurance.
+Print the resultant list.
+Calculate the net profit as the gross profit minus the total operational expenses. The gross_profit (gross profit) 
+variable has been set for you.
+
+
+
+
 
