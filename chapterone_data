@@ -65,6 +65,17 @@ Calculate the net profit as the gross profit minus the total operational expense
 variable has been set for you.
 
 
+# Create and print the opex list
+opex = [admin, travel, training, marketing, insurance]
+print(opex)
 
+# Calculate and print net profit
+net_profit = gross_profit - sum(opex)
+print("The net profit is {}.".format(net_profit))
+
+Great work! You now have a good understanding of the difference between net profit and gross profit, as well as what items to include in operating expenses. Sales minus cost of good sold minus operating costs gives you the net profit.
+
+Great! That is correct! Costs not directly related to the production of goods should not be included in cogs, and subsequently not included in the gross profit.
+--------------------------------------------------------------------------------------
 
 
